@@ -1,2 +1,14 @@
-# google-lens-visual-commerce-case-study
-Single-page PM case study site (Google Lens → Visual Commerce) built with Next.js App Router. Sticky TOC + scroll-spy, TL;DR + collapsible deep dives, 5-minute skim toggle, section navigation, and print/PDF-friendly styling. Deploys cleanly on Vercel.
+# Google Lens Case Study (Single-page Portfolio)
+
+A production-ready, single-page case study site with:
+- Sticky TOC (desktop) + drawer TOC (mobile)
+- Scroll-spy section highlighting
+- TL;DR + collapsible Deep dives
+- 5-minute skim mode
+- Print / Save as PDF friendly styles
+
+## Run locally
+
+```bash
+npm install
+npm run dev
