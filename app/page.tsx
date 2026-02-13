@@ -1,4 +1,4 @@
-import CaseStudyPage from "@/components/CaseStudyPage";
+import CaseStudyPage from "../components/CaseStudyPage";
 
 export default function Page() {
   return <CaseStudyPage />;
