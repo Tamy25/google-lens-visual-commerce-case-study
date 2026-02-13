@@ -3,12 +3,13 @@ import React from "react";
 export type CaseStudySection = {
   id: string;
   title: string;
-  tldr: string[];
+  tldr: readonly string[];
   deepDive: React.ReactNode;
   defaultCollapsed: boolean;
   prevId: string;
   nextId: string;
 };
+
 
 function TableWrap({ children }: { children: React.ReactNode }) {
   return <div className="tableWrap">{children}</div>;
@@ -682,7 +683,7 @@ const rawSections = [
       </>
     )
   }
-] as const;
+];
 
 function computeDefaultCollapsed(deepDiveTextLength: number) {
   // Heuristic: long sections default collapsed.
