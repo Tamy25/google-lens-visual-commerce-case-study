@@ -3,6 +3,7 @@
     "baseUrl": ".",
     "paths": {
     "@/*": ["./*"]
+    },
     "target": "ES2022",
     "lib": ["DOM", "DOM.Iterable", "ES2022"],
     "allowJs": false,
