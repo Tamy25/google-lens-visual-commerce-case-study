@@ -1,5 +1,5 @@
-import CaseStudyPage from "../components/CaseStudyPage";
+import PortfolioPage from "../components/PortfolioPage";
 
 export default function Page() {
-  return <CaseStudyPage />;
+  return <PortfolioPage />;
 }

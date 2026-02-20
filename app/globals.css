@@ -2,15 +2,23 @@
    Base + tokens
 ------------------------------ */
 :root {
-  --bg: #ffffff;
-  --fg: #0b1220;
+  --bg: #0c0f1a;
+  --bg-elevated: #141829;
+  --fg: #e8ecf4;
+  --fg-dim: #8a93a8;
   --muted: #5b667a;
   --muted-2: #7f8aa3;
-  --card: #f6f7fb;
-  --border: #e5e7ef;
-  --link: #1f57ff;
+  --card: #161b2e;
+  --card-hover: #1c2238;
+  --border: #232942;
+  --border-hover: #3a4468;
+  --accent: #38bdf8;
+  --accent-dim: rgba(56, 189, 248, 0.12);
+  --accent-border: rgba(56, 189, 248, 0.25);
+  --link: #38bdf8;
 
-  --shadow: 0 6px 24px rgba(11, 18, 32, 0.08);
+  --shadow: 0 8px 32px rgba(0, 0, 0, 0.28);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.18);
 
   --max: 1120px;
   --toc: 300px;
@@ -38,6 +46,8 @@ body {
   font-family: var(--font);
   line-height: 1.6;
   scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {

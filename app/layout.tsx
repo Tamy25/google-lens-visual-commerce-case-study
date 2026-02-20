@@ -1,24 +1,26 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Google Lens → Visual Commerce | PM Case Study",
+  title: "Portfolio | Software Engineer",
   description:
-    "A product strategy case study: transforming Google Lens from visual search into an end-to-end visual commerce platform (with Lenskart integration).",
+    "A modern dashboard-style portfolio showcasing full-stack projects built with Java, Spring Boot, React, and more.",
   openGraph: {
-    title: "Google Lens → Visual Commerce | PM Case Study",
+    title: "Portfolio | Software Engineer",
     description:
-      "A product strategy case study: transforming visual search into an end-to-end visual commerce platform.",
+      "Explore production-grade projects built with modern technologies.",
     type: "website",
-    images: [{ url: "/og.svg", width: 1200, height: 630, alt: "Case Study Cover" }]
   },
-  icons: {
-    icon: "/favicon.svg"
-  }
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0c0f1a",
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
-  children
+  children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
